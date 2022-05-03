@@ -16,8 +16,8 @@ def dict_test():
     print("#"*50)
     print(dict_a_thor)
     pprint(dict_a_thor)             # Formatted printing
-    dict_a_thor["window"] = 80000                                   # Modify
-    print(f"How much is the window: {dict_a_thor.get('window')}")   # Get value
+    dict_a_thor["window"] = 80000                                   # Modify (listáknál is ezt használjuk)   - exception-t dob vissza
+    print(f"How much is the window: {dict_a_thor.get('window')}")   # Get value - methodus, None-t dob vissza, ha nincs
     print(f"How much is the window: {dict_a_thor['window']}")       # Get value
 
 
@@ -65,8 +65,9 @@ def while_true():  # Infinite loop
 
         time.sleep(1)
         if ":01" in str(timestamp):
-            break  # Exit from infinite loop
-    return
+            break  # Exit from infinite loop (belső ciklusból lép ki)
+    return # egész functionból kilép
 
+# continue - újra kezdjük a ciklust (visszaugrik a ciklus elejére)
 
 while_true()

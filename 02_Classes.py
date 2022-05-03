@@ -4,6 +4,7 @@
 Module is not for import
 """
 
+
 class MainClass:
     """
     This class is for practice.

@@ -1,6 +1,7 @@
 # Lassú a PyCharm: Jobb klikk a lakatra a jobb alsó sarokban: PowerSafe mode (realtime IO ellenőrzések kikapcsolása)
 
 # CTRL + SHIFT + F10 : Aktuálisan megnyitott fájt indítja el
+# CTRL + F8: Legutóbb futtatott fájl újrafuttatása
 
 # Interpreter beállítása: File/Settings/Projects/Python interpreter/Fogaskerék/Add/VirtualEnv/Make available to all project
 

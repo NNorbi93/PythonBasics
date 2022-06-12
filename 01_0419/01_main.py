@@ -14,7 +14,7 @@
 
 print("Hello World")
 
-# Változókezelés - alap adattípusok
+############################ Változókezelés - alap adattípusok ############################
 # string - karakterlánc (array)
 # name: str - notáció - ha hozzá írod akkor messziről látszik bárkinek hogy milyen a típusa
 
@@ -32,7 +32,7 @@ print(f"Hello {name}")
 import datetime
 print(f"{datetime.datetime.now()} - Hello {name}")  # Aktuális dátum és idő beszúra, pl logoknál
 
-# naming convencion: állandó változónév legyen csupa nagybetű
+# naming convention: állandó változónév legyen csupa nagybetű
 # funkció
 def hello_xy(name: str = "hthdhrehd") -> str:   # naming convencion: függvénynél, metódusnál.
     # name egy bemeneti argumentum, megadott  default értékkel

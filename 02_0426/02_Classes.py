@@ -5,7 +5,7 @@ Module is not for import
 """
 
 
-class MainClass:
+class MainClass:            # Classok functionok csoportosítására
     """
     This class is for practice.
     """
@@ -19,8 +19,8 @@ class MainClass:
     def static_thing():
         """
         this method type will try to reach a class variable without success.
-        :param:
-        :return:
+        :param: - paraméterek, argumentumok
+        :return: - visszatérési érték
         """
 
         try:

@@ -77,7 +77,7 @@ list_and_for_cycle()
 print("-"*50)
 
 ################## WHILE ##################
-def while_true():  # Infinite loop
+def while_true():  # Infinite loop - pl főmenü funckió: menu választásnál amíg nem valid inputot kapsz addig újrafuttatod
     while True:    # amíg igaz ... - itt nincs feltétel
         timestamp = datetime.datetime.now()
         print(timestamp)                    # print egyből megpróbálja stringgé alakítani
@@ -85,8 +85,8 @@ def while_true():  # Infinite loop
         time.sleep(1)   # hány másodpercet várson
         # string keresése stringben
         if "95" in str(timestamp):  # stringgé kell alakítani hogy iterálható legyen, mert a datetime nem string hanem komplex adattipus
-            break                   # Exit from infinite loop (belső ciklusból lép ki)
-    return                          # egész functionból kilép visszatérési érték nélkül
+            break                   # Exit from infinite loop (belső ciklusból lép ki) - pl menüből kilépés X gombbal
+    return                          # egész functionból kilép, visszatérési érték nélkül
 
 while_true()
 

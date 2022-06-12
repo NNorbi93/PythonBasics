@@ -64,4 +64,4 @@ if not truefalse:           # If vmi = false egyszerűsítve
 
 
 # Commit Gitlabra Ctrl + K vagy zöl pipa ikon
-# .idea mappában az IDE settinsei vannak benne
+# .idea mappában az IDE settins fájlai  vannak benne - gitre nem kell ezeket felrakni

@@ -1,0 +1,52 @@
+Q: Dictionary-k lekérdezésénél miért érdemes használni a .get-et?
+A: None-t dob vissza ha nincs az adott elem. Másik lekérdezésénél: [] exeption-t dob.
+Listáknál is használjuk
+
+Q: Funkció definiálása, argumentum megadása:
+A: változó név + típusa + default érték: valtozo: str = "default"
+PyCharm szólni fog hogy ilyen típust vár
+
+Q: Primitívek:
+A: Alap, egyszerű adattípusok: int, string, boolean, float, dict (nem saját adattípus)
+
+Q: végtelen ciklus és kilépés
+A: while True - Break (Return - egész functionből kilép)
+
+Q: Ciklus újrakezdése (megmaradt részek kihagyásával, átugrásával)
+A: continue
+
+Q: elem törlése dictionaryből
+A: .pop() metódus - visszaadja a törölt elem value-ját
+A: .del()-el is lehet - nem adja vissza törölt elem value-ját
+
+Q: Dictionary key lehet lista
+A: Nem, csak value
+
+Q: Function visszatérési értékéne típusának megadása
+A: () -> str
+
+Q: fájlstruktúrába látszódnak a függvények, classok stb.
+A: Project file structure --> Settings (fogaskerék) --> Tree Appearance --> Show members
+
+Q: Clone project from GIT:
+A: Close all project. Get from VCS (version control system)
+GIT-es URL
+GITHUB/Code/Code/HTTPS vagy SSH (private and public SSH key kell hozzá - generálni: pl putty gen)
+pubilc keyt hozzá kell adni a GITHUBaccountodhoz: GITHUB/Settings/SSH and GPG keys
+GITHUB accountba bejelentkezés: PyCharm: Settings/VersinControl/Git/GitHUB/
+
+Tipp: Minden terméknél legyen egyedi azonosítója (ID)
+Termék Class legyen: ID, Név, érték
+
+SQL lite: fájlba menti a táblázatot és nem szerverre
+
+Q: Fájl végén kell egy üres sor. Miért kell?
+A: Linuxos sajátosság. Utolsó sort lehet nem fogja végrehajtani, ezért jó ja van a végén egy üres sor
+
+HF:
+Tipp: Menu-t rakjuk Classokba, Featuröket classokba külön külön fájlba
+Tipp: Hozzáadás és módosítás szétszedése
+
+
+
+
